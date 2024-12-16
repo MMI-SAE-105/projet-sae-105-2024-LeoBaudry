@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : BAUDRY  
+- PRÉNOM : Léo
+- GROUPE : A2 
 - URL du site :
 - URL FIGMA :
