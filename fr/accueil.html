@@ -4,10 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page d'accueil</title>
+
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png"/>
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
     <link rel="stylesheet" href="../src/css/style.css">
 </head>
 
 <body>
-<h1>TEST yo yo yo c'est le projet qui projette (je vais me flinguer)</h1>
+    <header class = header>
+        <a href="../fr/accueil.html" class="header__link"><img src="../assets/img/Logo.svg" alt="Logo" class="header__logo"></a>
+
+    <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        <span class="menu-btn__bar" aria-hidden="true"></span>
+    </button>
+
+
+    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+      <img src="../assets/img/top_part_menu.webp" alt="" class="menu__shape menu__shape--top" aria-hidden="true">
+      <ul class="menu__list list-unstyled">
+        <li class="menu__item">
+          <a class="menu__link" href="../fr/presentation_objet.html">Présentation des objets</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="../fr/livre.html">"La Route" de Cormac McCarthy</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="../fr/film.html">Film "Le jour où la Terre s'arrêta"</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="../fr/realisateur.html">George Miller : un visionnaire</a>
+        </li>
+        <li class="menu__item">
+            <a class="menu__link" href="../fr/musique.html">"No Surprises" de Radiohead</a>
+        </li>
+      </ul>
+      <div class="menu__secondaire">
+        <ul class="menu__terms list-unstyled" aria-label="Legal information">
+          <li>
+            <a class="menu__link menu__link--silent" href="../fr/contact.html">Contact</a>
+          </li>
+          <li>
+            <a class="menu__link menu__link--silent" href="../fr/about.html">À Propos</a>
+          </li>
+          <li>
+            <a class="menu__link menu__link--silent" href="../fr/glossaire.html">Glossaire</a>
+          </li>
+          <li>
+            <a class="menu__link menu__link--silent" href="../fr/projets.html">Autres projets</a>
+          </li>
+        </ul>
+      </div>
+      <a href="../fr/accueil.html"><img src="../assets/img/Logo.svg" alt="Logo"></a>
+      <img src="../assets/img/bottom_part_menu.webp" alt="" class="menu__shape menu__shape--bottom" aria-hidden="true">
+    </nav>
+    </header>
+
+    <main>
+        <section>
+            <p>Publié le 24/10 par Léo BAUDRY. Temps de lecture : 2min</p>
+        </section>
+
+        <section>
+            <h1> Bienvenue sur "SilentAge" !</h1>
+        </section>
+
+        <section>
+            <p> Plongez dans un univers à la fois fascinant et terriblement effrayant : celui d'un monde dénué de toute 
+            technologie. </p>
+            <p> Ici, vous en découvrirez plus sur un tel scénario catastrophique, en lisant les multiples articles présents
+            ci-dessous : </p>
+        </section>
+
+
+
+
+
+
+    </main>
 </body>
 </html>
