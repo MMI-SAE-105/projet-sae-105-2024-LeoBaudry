@@ -16,60 +16,57 @@
 </head>
 
 <body>
-    <header class = header>
-        <a href="../fr/index.html" class="header__link"><img src="../assets/icons/Logo.svg" alt="Logo" class="header__logo"></a>
-
-        <div class="header__right">
-          <button class="header__translate" aria-label="traduire">
-              <a class="header__translate-btn" href="../en/index_en.html">
-                  <img src="../assets/icons/bouton_trad.svg" alt="Traduire en Anglais">
-              </a>
-          </button>
-  
-          <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-              <span class="menu-btn__bar" aria-hidden="true"></span>
-          </button>
-      </div>
-
+  <header class="header">
+    <a href="../fr/index.html" class="header__link"><img src="../assets/icons/Logo.svg" alt="Logo" class="header__logo"></a>
+    <div class="header__right">
+        <button class="header__translate" aria-label="traduire">
+            <a class="header__translate-btn" href="../en/index_en.html">
+                <img src="../assets/icons/bouton_trad.svg" alt="Traduire en Anglais">
+            </a>
+        </button>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+    </div>
     <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-      <img src="../assets/img/top_part_menu.webp" alt="" class="menu__shape menu__shape--top" aria-hidden="true">
-      <ul class="menu__list list-unstyled">
-        <li class="menu__item">
-          <a class="menu__link" href="../fr/presentation_objet.html">Présentation des objets</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="../fr/livre.html">"La Route" de Cormac McCarthy</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="../fr/film.html">Film "Le jour où la Terre s'arrêta"</a>
-        </li>
-        <li class="menu__item">
-          <a class="menu__link" href="../fr/realisateur.html">George Miller : un visionnaire</a>
-        </li>
-        <li class="menu__item">
-            <a class="menu__link" href="../fr/musique.html">"No Surprises" de Radiohead</a>
-        </li>
-      </ul>
-      <div class="menu__secondaire">
-        <ul class="menu__terms list-unstyled" aria-label="Legal information">
-          <li>
-            <a class="menu__link menu__link--silent" href="../fr/contact.html">Contact</a>
-          </li>
-          <li>
-            <a class="menu__link menu__link--silent" href="../fr/about.html">À Propos</a>
-          </li>
-          <li>
-            <a class="menu__link menu__link--silent" href="../fr/glossaire.html">Glossaire</a>
-          </li>
-          <li>
-            <a class="menu__link menu__link--silent" href="../fr/projets.html">Autres projets</a>
-          </li>
+        <div class="menu__shape menu__shape--top" aria-hidden="true"></div>
+        <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+                <a class="menu__link" href="../fr/presentation_objet.html">Présentation des objets</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../fr/livre.html">"La Route" de Cormac McCarthy</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../fr/film.html">Film "Le jour où la Terre s'arrêta"</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../fr/realisateur.html">George Miller : un visionnaire</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../fr/musique.html">"No Surprises" de Radiohead</a>
+            </li>
         </ul>
-      </div>
-      <a href="../fr/index.html"><img src="../assets/icons/Logo.svg" alt="Logo" class="menu__logo"></a>
-      <img src="../assets/img/bottom_part_menu.webp" alt="" class="menu__shape menu__shape--bottom" aria-hidden="true">
+        <div class="menu__secondaire">
+            <ul class="menu__terms list-unstyled" aria-label="Legal information">
+                <li>
+                    <a class="menu__link menu__link--silent" href="../fr/contact.html">Contact</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../fr/about.html">À Propos</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../fr/glossaire.html">Glossaire</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../fr/projets.html">Autres projets</a>
+                </li>
+            </ul>
+        </div>
+        <a href="../fr/index.html" class="menu__logo"></a>
+        <div class="menu__shape menu__shape--bottom" aria-hidden="true"></div>
     </nav>
-    </header>
+</header>
 
     <main>
 
@@ -160,12 +157,12 @@
       <div class="card__content">
           <h2 class="card__title"> "No Surprises" de Radiohead : album OK Computer (1997) </h2>
           <p class="card__text">Découvrez en quoi Radiohead exprime discrètement, mais efficacement, un ras-le-bol de 
-            "<a href="../fr/glossaire.html">l'hyper-technologisation</a>" au travers de leur musique...
+            "<a class="card__link" href="../fr/glossaire.html">l'hyper-technologisation</a>" au travers de leur musique...
           </p>
       </div>
       <div class="card__image-container">
         <img class="card__image" src="../assets/img/photo_musique.webp" alt="Photo de la pochette de la musique">
-        <a class="card__button2" href="../fr/musique.html">Lire l'article</a>
+        <a class="card__button" href="../fr/musique.html">Lire l'article</a>
       </div>
     </section>
     </main>
