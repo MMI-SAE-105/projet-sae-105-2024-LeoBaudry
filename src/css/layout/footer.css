@@ -1,6 +1,6 @@
 .footer {
-    background-color: #1a1a1a;
-    color: #fff;
+    background-color: var(--grey-black);
+    color: var(--grey-gray-2);
     font-family: Arial, sans-serif;
     padding: 2rem;
     display: flex;
@@ -12,6 +12,25 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+  }
+
+  .footer__title {
+    color: var(--grey-white);
+    font-family: var(--font-sans-serif-Mulish);
+    text-transform: uppercase;
+  }
+
+  .footer__nav-title, .footer__info-title {
+    color: var(--grey-white);
+    font-family : var(--font-sans-serif-Mulish);
+    text-transform: uppercase;
+  }
+
+  .footer__nav-list li {
+    font-family: var(--font-sans-serif-Montserrat);
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: var(--tt-btn)
   }
   
   .footer__content {
@@ -27,7 +46,7 @@
   
   .footer__divider {
     width: 1px;
-    background-color: #fff; 
+    background-color: var(--grey-gray-1); 
   }
   
   .footer__menu,
@@ -45,7 +64,7 @@
   .footer__menu a,
   .footer__info a {
     text-decoration: none;
-    color: #fff;
+    color: var(--grey-gray-2);
   }
   
   .footer__social-container {
@@ -61,8 +80,15 @@
     padding: 0;
   }
 
+  .footer__social-title {
+    text-transform: uppercase;
+    color: var(--grey-gray-2);
+    font-family: var(--font-sans-serif-Mulish);
+    font-weight: 450;
+  }
+
   .footer__credits a {
-    color: #fff;
+    color: var(--grey-gray-2);
     text-decoration: underline;
   }
 
@@ -71,18 +97,39 @@
     justify-content: space-between; 
     align-items: center; 
     margin-top: 0.5rem;
-    border-top: 1px solid #444; 
+    border-top: 1px solid var(--grey-dark-gray-1); 
     padding-top: 0.5rem;
   }
 
   .footer__credits {
     margin: 0;
-    font-size: 0.9rem;
-    color: #fff;
+    font-size: var(--tt-stu);
+    font-family: var(--font-sans-serif-Roboto);
+    color: var(--grey-gray-2);
     text-align: left;
+    padding-right: 1.2rem;
   }
 
   .footer__logo-mmi img {
     width: 12rem;
     height: auto;
   }
+
+  .footer__social-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.2rem;
+    margin-left : -0.2rem;  
+    
+}
+
+.footer__social-item {
+    list-style: none;
+    display: inline-block;
+}
+
+.footer__info-item {
+    line-height: 1.6;
+    font-family: var(--font-sans-serif-Montserrat);
+    font-size: var(--tt-b2);
+}

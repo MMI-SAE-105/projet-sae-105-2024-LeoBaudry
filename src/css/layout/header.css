@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;  
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  padding: var(--space1x) 1vw; 
+  background-color: var(--green-dark-green);
+  z-index: 10;
+}
+
+
+.header__menu.btn {
+  display: none;
+}
+
+.header__logo {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header__name   {
+  color: var(--grey-blanc);
+  font-size: var(--tt-h3);
+  margin-right: var(--space2x);
+  font-family: var(--font-sans-serif-DM_Sans);
+}
+
