@@ -1,0 +1,60 @@
+:root {
+    /* Mode 1 */
+    /* color */
+
+    --blue-blue: #9abddc;
+    --blue-light-blue-1: #aecce4;
+    --blue-light-blue-2: #bdd5e7;
+    --blue-light-blue-3: #d1e5f4;
+    --blue-super-light-blue: #e5f3fd;
+    --blue-ultra-light-blue: #f5fbff;
+    --brown-brown: #5b3e31;
+    --brown-brown-2: #765341;
+    --brown-dark-brown: #3d251e;
+    --brown-dark-brown-2: #4c3228;
+    --brown-light-brown: #8b6c5c;
+    --brown-light-brown-2: #a08679;
+    --green-dark-green: #1e5b53;
+    --green-forest-green: #03624c;
+    --green-green: #2cc295;
+    --green-light-green: #c1f6e3;
+    --grey-black: #1c1514;
+    --grey-dark-gray-1: #7e7b77;
+    --grey-gray-1: #989592;
+    --grey-gray-2: #cdcac7;
+    --grey-light-gray-1: #d9d9d9;
+    --grey-light-gray-2: #e9e7e4;
+    --grey-white: #fafafa;
+    --other-background: #f3f2f1;
+    --other-hyper-dark-brown: #231817;
+    --other-super-dark-brown: #291b1a;
+    --other-transparent: #ffffff00;
+
+    /* font-family */
+
+    --font-sans-serif-Roboto: "Roboto", sans-serif;
+    --font-serif-RobotoSlab: "Roboto Slab", serif;
+    --font-sans-serif-Mulish: "Mulish", sans-serif;
+    --font-sans-serif-Montserrat: "Montserrat", sans-serif;
+    --font-sans-serif-Poppins: "Poppins", sans-serif;
+    --font-serif-Lora: "Lora", serif;
+    --font-sans-serif-OpenSans: "Open Sans", sans-serif;
+
+      /* Espaces */
+
+      --space1x: 10px;
+      --space2x: 20px;
+      --space3x: 40px;
+      --space4x: 80px;
+      --space5x: 120px;
+
+        /* Taille des typos */
+  --tt-proj: 1.125rem;  
+  --tt-btn: 0.875rem;
+  --tt-stu: 0.75rem;
+  --tt-b2: 0,8125rem;
+  --tt-b1: 0,9375rem;
+  --tt-h3: 1.625rem;
+  --tt-h2: 2.25rem;
+  --tt-h1: 3rem;
+  }

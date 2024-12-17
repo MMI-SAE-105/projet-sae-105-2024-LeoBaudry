@@ -18,16 +18,16 @@
     display: flex;
     justify-content: space-between;
     gap: 2rem;
-    border-top: 1px solid transparent; /* Pour l'alignement visuel */
+    border-top: 1px solid transparent; 
   }
   
   .footer__section {
-    flex: 1; /* Permet aux sections de prendre une taille égale */
+    flex: 1; 
   }
   
   .footer__divider {
     width: 1px;
-    background-color: #fff; /* Barre de séparation */
+    background-color: #fff; 
   }
   
   .footer__menu,
