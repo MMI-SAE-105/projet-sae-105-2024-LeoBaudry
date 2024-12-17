@@ -6,5 +6,5 @@
 - NOM : BAUDRY  
 - PRÉNOM : Léo
 - GROUPE : A2 
-- URL du site :
-- URL FIGMA :
+- URL du site : http://silentage.leo-baudry.fr/fr/
+- URL FIGMA : 

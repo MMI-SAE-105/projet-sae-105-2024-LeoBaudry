@@ -28,8 +28,9 @@
 }
 
 .hero__text {
-    font-size: 1rem;
-    font-family: var(--font-sans-serif-Lora);
-    color: var(--grey-black);
+    font-size: var(--tt-btn);
+    font-family: var(--font-sans-serif-Roboto);
+    color: var(--grey-gray-1);
+    padding-left: 1rem;
     margin: 0;
 }

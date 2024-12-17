@@ -17,15 +17,29 @@
 }
 
 .header__logo {
+  height: 80px;
+  width: 80px;
   padding-left: 20px;
   display: flex;
   align-items: center;
 }
 
-.header__name   {
+.header__name  {
   color: var(--grey-blanc);
   font-size: var(--tt-h3);
   margin-right: var(--space2x);
   font-family: var(--font-sans-serif-DM_Sans);
 }
 
+.header__translate-btn {
+  display: inline;
+  align-items: right;
+  gap: var(--space1x);
+  padding-right: 20px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+  gap: var(--space1x); /* Ajustez l'espace entre les boutons si nécessaire */
+}
