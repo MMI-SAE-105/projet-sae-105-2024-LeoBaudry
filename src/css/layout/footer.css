@@ -1,0 +1,88 @@
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .footer__header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    border-top: 1px solid transparent; /* Pour l'alignement visuel */
+  }
+  
+  .footer__section {
+    flex: 1; /* Permet aux sections de prendre une taille égale */
+  }
+  
+  .footer__divider {
+    width: 1px;
+    background-color: #fff; /* Barre de séparation */
+  }
+  
+  .footer__menu,
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer__menu ul,
+  .footer__info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer__menu a,
+  .footer__info a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer__social-container {
+    text-align: left;
+    margin-bottom: -2rem;
+  }
+  
+  .footer__social {
+    display: flex;
+    justify-content: left;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer__credits a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .footer__bottom {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 0.5rem;
+    border-top: 1px solid #444; 
+    padding-top: 0.5rem;
+  }
+
+  .footer__credits {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #fff;
+    text-align: left;
+  }
+
+  .footer__logo-mmi img {
+    width: 12rem;
+    height: auto;
+  }

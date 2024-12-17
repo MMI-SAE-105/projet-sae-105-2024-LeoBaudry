@@ -9,5 +9,6 @@
 @import "base/main.css";
 
 /* Layout */
+@import "layout/footer.css";
 
 /* Components */
