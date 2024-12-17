@@ -115,6 +115,11 @@
     height: auto;
   }
 
+  .footer__logo {
+    height: 80px;
+    width: 80px;
+  }
+
   .footer__social-icon {
     width: 2.5rem;
     height: 2.5rem;

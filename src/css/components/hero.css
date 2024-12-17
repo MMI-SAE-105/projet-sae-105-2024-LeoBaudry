@@ -16,7 +16,7 @@
 .hero__title {
     font-size: var(--tt-h1);
     text-align: right;
-    font-family: var(--font-sans-serif-Roboto);
+    font-family: var(--font-serif-RobotoSlab);
     margin: 0;
 }
 
@@ -28,9 +28,17 @@
 }
 
 .hero__text {
+    text-align: left;
     font-size: var(--tt-btn);
     font-family: var(--font-sans-serif-Roboto);
     color: var(--grey-gray-1);
     padding-left: 1rem;
     margin: 0;
+}
+
+@media (max-width: 380px) {
+    .hero__text {
+        font-size: var(--tt-stu); 
+        padding-left: 0.5rem;   
+    }
 }
