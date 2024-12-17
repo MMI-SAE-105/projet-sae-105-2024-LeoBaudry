@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png"/>
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script type="module" src="../src/js/script.js"></script>
+    <script type="module" src="../src/js/carousel.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="../fr/index.html" class="header__link"><img src="../assets/icons/Logo.svg" alt="Logo" class="header__logo"></a>
+    <div class="header__right">
+        <button class="header__translate" aria-label="traduire">
+            <a class="header__translate-btn" href="../en/index_en.html">
+                <img src="../assets/icons/bouton_trad.svg" alt="Traduire en Anglais">
+            </a>
+        </button>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+    </div>
+    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <div class="menu__shape menu__shape--top" aria-hidden="true"></div>
+        <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+                <a class="menu__link" href="../fr/presentation_objet.html">Présentation des objets</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../fr/livre.html">"La Route" de Cormac McCarthy</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../fr/film.html">Film "Le jour où la Terre s'arrêta"</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../fr/realisateur.html">George Miller : un visionnaire</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../fr/musique.html">"No Surprises" de Radiohead</a>
+            </li>
+        </ul>
+        <div class="menu__secondaire">
+            <ul class="menu__terms list-unstyled" aria-label="Legal information">
+                <li>
+                    <a class="menu__link menu__link--silent" href="../fr/contact.html">Contact</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../fr/about.html">À Propos</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../fr/glossaire.html">Glossaire</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../fr/projets.html">Autres projets</a>
+                </li>
+            </ul>
+        </div>
+        <a href="../fr/index.html" class="menu__logo"></a>
+        <div class="menu__shape menu__shape--bottom" aria-hidden="true"></div>
+    </nav>
+</header>
+
+<main>  
+    <section class="hero intro">
+        <h1 class="hero__title"> Présentation des objets </h1>
+        <div class="hero__content">
+        <p class="hero__text"><em>Publié le 24/10 par Léo BAUDRY. Temps de lecture : 2 min</em></p>
+        </div>
+      </section>
+
+      <section class="intro">
+        <h1 class="intro__title">Le sablier : un outil intemporel</h1>
+      </section>
+
+      <section class="text chapo">
+        <h2 class="chapo__title">Comment survivre sans nos objets technologiques ?</h2>
+        <p class="text__text">Le sablier est l'un des <strong>objets</strong> le plus fascinant inventé par l'humanité pour mesurer le temps. 
+            Il dépend d'un principe très simple : deux conteneurs de verre sont reliés par un petit passage, permettant à des 
+            grains de sable de s'écouler de haut en bas, en un temps défini au préalable.</p>
+        <p class="text__text">Depuis son invention dans l'<strong>Antiquité</strong>, cet outil a marqué l'histoire en tant qu'instrument de précision
+            , utilisé non seulement pour mieux rythmer sa journée, mais aussi pour améliorer le train de vie. </p>
+        <p class="text__text">Dans un monde où les horloges électroniques et les montres connectées sont omniprésentes, on oublie souvent l'utilité 
+            de cet outil <strong>sans technologie</strong>.</p>
+        <img class="text__img" src="../assets/img/photo_sablier_1.webp" alt="Photo d'un sablier">
+        <caption class="text__description">Sablier ancien</caption>
+      </section>
+
+      <hr class="separator">
+
+      <section class="text">
+        <p>Dans un avenir où nos technologies actuelles disparaîtraient, le sablier pourrait de nouveau retrouver son 
+        <strong>utilité</strong> quotidienne. </p>
+        <p>À une époque où la gestion du temps repose presque exclusivement sur des systèmes <strong>numériques</strong>, 
+        l'utilisation sérieuse d'un sablier peut paraître inutile, mais offre pourtant une solution <strong>fiable</strong> pour 
+        mesurer une période efficacement.</p>
+        <p>Qu'il s'agisse de <strong>mesurer</strong> une durée de cuisson, de réguler un cycle de travail ou même de chronométrer des 
+        activités physiques, le sablier n'a besoin ni de batteries, ni d'électricité. Il serait donc l'un des rares objets capable
+        de fonctionner de manière <strong>autonome</strong>, et sans maintenance complexe.</p>
+
+        <div class="carousel text" aria-labelledby="carousel-heading">
+            <h2 id="carousel-heading" class="carousel__heading sr-only">
+                Carousel d'images de sabliers
+            </h2>
+            <div class="carousel__container" role="region" aria-live="polite">
+                <div class="carousel__item">
+                    <img src="../assets/img/photo_carousel_obj_1.webp" alt="Un couple de coureurs" id="item1" aria-hidden="true" loading="lazy"/>
+                </div>
+                <div class="carousel__item">
+                    <img src="../assets/img/photo_carousel_obj_2.webp" alt="Le lieu de projection" id="item2" aria-hidden="true" loading="lazy"/>
+                </div>
+                <div class="carousel__item">
+                    <img src="../assets/img/photo_carousel_obj_3.webp" alt="Un coureur pendant un trail" id="item3" aria-hidden="true" loading="lazy"/>
+                </div>
+                <div class="carousel__item">
+                    <img src="../assets/img/photo_carousel_obj_4.webp" alt="Le mythe de sissyphe" id="item4" aria-hidden="true" loading="lazy"/>
+                </div>
+                <div class="carousel__item">
+                    <img src="../assets/img/photo_carousel_obj_5.webp" alt="Une famille heureuse dans notre événement" id="item5" aria-hidden="true" loading="lazy"/>
+                </div>
+            </div>
+            <div class="carousel__controls">
+                <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                    <img src="../assets/icons/fleche_carousel.svg" alt="fleche gauche" loading="lazy" aria-hidden="true"/>
+                </button>
+                <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                    <img src="../assets/icons/fleche_carousel.svg" alt="fleche droite" loading="lazy" aria-hidden="true"/>
+                </button>
+            </div>
+            <nav class="carousel__nav">
+              <ul class="carousel__nav-list">
+                  <li class="carousel__nav-item" ><a href="#item1" >Image 1</a></li>
+                  <li class="carousel__nav-item" ><a href="#item2" >Image 2</a></li>
+                  <li class="carousel__nav-item" ><a href="#item3" >Image 3</a></li>
+                  <li class="carousel__nav-item" ><a href="#item4" >Image 4</a></li>
+                  <li class="carousel__nav-item" ><a href="#item5" >Image 5</a></li>
+              </ul>
+          </nav>
+          <p class="text__description"> Exemples de sabliers.</p>
+        </div>
+      </section>
+
+    <section class="text">
+        <div class="card card__content">
+            <p class="card__text">Le sablier, par sa nature même, impose une <strong>réflexion</strong> plus <strong>lente</strong> et 
+            plus <strong>consciente</strong> sur le temps. </p>
+            <p class="card__text">Contrairement aux horloges digitales qui nous inondent d'informations précises et constantes, le 
+            sablier est un objet qui exige une certaine <strong>patience</strong>. </p>
+        </div>
+        <p class="text__text">Les grains de sable qui s'écoulent doucement nous rappellent que le temps est une ressource <strong>précieuse</strong>, 
+        que nous ne pouvons pas <strong>contrôler</strong>.</p>
+        <p class="text__text">Ce retour à une approche plus naturelle et directe de la gestion du temps pourrait inciter les 
+        utilisateurs à redécouvrir l'importance des pauses et de la contemplation.</p>
+    </section>
+
+    <hr class="separator">
+
+    <section class="text">
+        <p class="text__text">Dans un monde théoriquement sans électricité ni technologie moderne, <strong>le sablier deviendrait 
+        donc bien plus qu'un simple outil de mesure</strong>. </p>
+        <p class="text__text">Il représenterait une nouvelle façon de <strong>penser le temps</strong>: plus <strong>lente</strong>, plus 
+        <strong>respectueuse</strong> du rythme de la nature, mais aussi plus <strong>autonome</strong>.  </p>
+        <p class="text__text"> En cela, il symbolise une forme de <strong>résilience</strong> face à la <strong>perte des technologies
+        </strong> dont nous dépendons aujourd'hui.</p>
+    </section>
+
+    <hr class="separator">
+
+    <section class="text">
+        <h2 class="text__title">Frise d'objets similaires</h2>
+    </section>
+
+    <section class="frise">
+        <img src="../assets/img/frise_verticale.svg" alt="Frise" class="frise__image">
+        <div class="frise__item frise__item--sablier">
+            <h4 class="frise__title">Sablier</h4>
+            <p class="frise__text">Pour garder conscience du temps qui passe, compter le temps de travail, essayer de continuer à vivre selon nos habitudes sédentaires.</p>
+        </div>
+        <div class="frise__item frise__item--velo">
+            <h4 class="frise__title">Vélo</h4>
+            <p class="frise__text">Pour continuer à pouvoir se déplacer efficacement et de manière autonome.</p>
+        </div>
+        <div class="frise__item frise__item--couteau">
+            <h4 class="frise__title">Couteau en silex</h4>
+            <p class="frise__text">Vraiment utile pour chasser, et se procurer de la nourriture étant donné que les chaînes de productions alimentaires de masse n'existent plus.</p>
+        </div>
+        <div class="frise__item frise__item--torche">
+            <h4 class="frise__title">Torche</h4>
+            <p class="frise__text">Devenu nécessité pour s'éclairer la nuit, le temps de trouver une alternative pour un meilleur éclairage.</p>
+        </div>
+        <div class="frise__item frise__item--bol">
+            <h4 class="frise__title">Bol en terre cuite</h4>
+            <p class="frise__text">Un rappel des assiettes modernes, ces bols seront une absolue nécessité afin de conserver un minimum d'hygiène lors des repas. Ils seront aussi utiles pour stocker de la nourriture et autre.</p>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer__header">
+    <a href="../fr/index.html" class="footer__logo-link">
+      <img src="../assets/icons/Logo.svg" alt="Logo du festival" class="footer__logo" loading="lazy">
+    </a>
+    <h3 class="footer__title">SilentAge Website</h3>
+    </div>
+  
+    <div class="footer__content">
+    <div class="footer__section footer__menu">
+      <h4 class="footer__nav-title">Menu</h4>
+      <ul class="footer__nav-list">
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/contact.html">Contact</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/about.html">À Propos</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/glossaire.html">Glossaire</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/projets.html">Autres projets</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer__divider"></div>
+  
+    <div class="footer__section footer__info">
+      <h4 class="footer__info-title">Informations</h4>
+      <ul class="footer__info-list">
+      <li class="footer__info-item">Léo BAUDRY</li>
+      <li class="footer__info-item">MMI 1 | TP A2</li>
+      <li class="footer__info-item"><a class="footer__info-link" href="mailto:leo.baudry@edu.univ-fcomte.fr">M'écrire un mail</a></li>
+      </ul>
+    </div>
+    </div>
+  
+    <div class="footer__social-container">
+    <h4 class="footer__social-title">Me Suivre</h4>
+    <ul class="footer__social-list"></ul>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/instagram.svg" alt="Instagram" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/youtube.svg" alt="Youtube" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/twitter.svg" alt="Twitter" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/facebook.svg" alt="Facebook" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/tiktok.svg" alt="Tiktok" class="footer__social-icon" aria-hidden="true" ></a></li>
+    </ul>
+    </div>
+  
+    <div class="footer__bottom">
+    <p class="footer__credits">
+      Projet réalisé en 2024 dans le cadre d'un exercice pédagogique au département 
+      <a class="footer__credits-link" href="https://blogdummi.fr/">MMI de Montbéliard</a>
+    </p>
+    <div class="footer__logo-mmi">
+      <img src="../assets/icons/logo_mmi_whitesvg.svg" alt="Logo MMI" class="footer__logo-mmi-img" loading="lazy">
+    </div>
+    </div>
+  </footer>
+
+</body>
+</html>

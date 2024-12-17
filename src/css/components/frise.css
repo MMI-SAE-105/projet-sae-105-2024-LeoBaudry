@@ -1,0 +1,216 @@
+
+.frise {
+    position: relative;
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.frise__image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.frise__item {
+    position: absolute; 
+    text-align: center;
+    width: 165px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.frise__item--sablier {
+    top: 4%; 
+    left: 25%;
+    background-image: url('../../../assets/img/image_sablier_frise.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 100px; 
+}
+
+.frise__item--velo {
+    top: 24.5%; 
+    left: 75%;
+    background-image: url('../../../assets/img/image_velo_frise.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 100px; 
+}
+
+.frise__item--couteau {
+    top: 45%; 
+    left: 25%;
+    background-image: url('../../../assets/img/image_couteau_frise.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 100px; 
+}
+
+.frise__item--torche {
+    top: 62%; 
+    left:75%;
+    background-image: url('../../../assets/img/image_torche_frise.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 100px; 
+}
+
+.frise__item--bol {
+    top: 83%; 
+    left: 25%;
+    background-image: url('../../../assets/img/image_bols_frise.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 100px; 
+}
+
+.frise__text {
+    font-size: var(--tt-b2);
+    font-family: var(--font-sans-serif-Roboto);
+    line-height: 1.2;
+    margin-top: 10px;
+}
+
+.frise__item--sablier .frise__text,
+.frise__item--couteau .frise__text,
+.frise__item--bol .frise__text {
+    text-align: left;
+    position: relative;
+    left: 130%; ;
+    transform: translateY(0); 
+}
+
+.frise__item--velo .frise__text,
+.frise__item--torche .frise__text {
+    text-align: right;
+    position: relative;
+    right: 130%; /* Décale le texte à gauche de l'image */
+    transform: translateX(0);
+}
+
+.frise__item--sablier .frise__text,
+.frise__item--couteau .frise__text,
+.frise__item--bol .frise__text, 
+.frise__item--velo .frise__text,
+.frise__item--torche .frise__text{
+    transform: translateY(-7.5rem);
+}
+
+.frise__title {
+    font-size: var(--tt-b1);
+    font-family: var(--font-sans-serif-Poppins);
+    font-weight: 600;
+    margin-bottom: 5px;  /* Espacement entre le titre et l'image */
+    position: absolute;  /* Positionner le titre au-dessus de l'image */
+    top: -2rem;  /* Ajuste cette valeur pour contrôler l'espace entre le titre et l'image */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Styles des éléments spécifiques */
+.frise__item--sablier .frise__title {
+    top: -3rem;  /* Ajuste l'espacement spécifique pour l'item 'sablier' */
+}
+
+.frise__item--velo .frise__title {
+    top: -3rem;  /* Ajuste l'espacement spécifique pour l'item 'velo' */
+}
+
+.frise__item--couteau .frise__title {
+    top: -3.25rem;  /* Ajuste l'espacement spécifique pour l'item 'couteau' */
+    left: 35%
+}
+
+.frise__item--torche .frise__title {
+    top: -3rem;  /* Ajuste l'espacement spécifique pour l'item 'torche' */
+}
+
+.frise__item--bol .frise__title {
+    top: -3.25rem;  /* Ajuste l'espacement spécifique pour l'item 'bol' */
+    left: 35%
+}
+
+.frise__item--couteau .frise__title {
+    width: 200px; /* Ajuste cette valeur selon la largeur souhaitée */
+    white-space: nowrap; /* Empêche le retour à la ligne */
+    overflow: hidden; /* Cache le texte qui déborde */
+    text-overflow: ellipsis; /* Ajoute une ellipse (…) si le texte dépasse */
+    text-align: center; /* Garde le texte centré */
+}
+
+/* Ajuster la largeur des titres pour "Bol en terre cuite" */
+.frise__item--bol .frise__title {
+    width: 200px; /* Ajuste cette valeur selon la largeur souhaitée */
+    white-space: nowrap; /* Empêche le retour à la ligne */
+    overflow: hidden; /* Cache le texte qui déborde */
+    text-overflow: ellipsis; /* Ajoute une ellipse (…) si le texte dépasse */
+    text-align: center; /* Garde le texte centré */
+}
+
+/* Responsive adjustments */
+
+
+@media (max-width: 399px) {
+    .frise__item--sablier .frise__text,
+    .frise__item--couteau .frise__text,
+    .frise__item--bol .frise__text {
+    left: 115%; 
+    }
+}
+
+@media (max-width: 399px) {
+    .frise__item--velo .frise__text,
+    .frise__item--torche .frise__text {
+    right: 115%; 
+    }
+}
+
+@media (max-width: 385px) {
+    .frise__text {
+        font-size: 13px; /* Ajuste la taille du texte pour les petits écrans */
+    }
+}
+
+@media (max-width: 359px) {
+    .frise__text {
+        font-size: 12px; /* Ajuste la taille du texte pour les petits écrans */
+    }
+}
+
+@media (max-width: 359px) {
+    .frise__item--sablier .frise__text,
+    .frise__item--couteau .frise__text,
+    .frise__item--bol .frise__text {
+        
+    left: 105%; 
+    
+    }
+}
+
+@media (max-width: 359px) {
+    .frise__item--velo .frise__text,
+    .frise__item--torche .frise__text {
+    right: 105%; 
+    }
+}
+
+@media(max-width: 359px)  {
+    .frise__item {
+    width: 145px; 
+}
+}
+
+@media(max-width: 359px)  {
+    .frise__title {
+    font-size: 14px;
+}
+}
+

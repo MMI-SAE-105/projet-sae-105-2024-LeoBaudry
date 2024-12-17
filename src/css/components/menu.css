@@ -214,14 +214,14 @@
     background-repeat: no-repeat;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 389px) {
     .menu__link {
         font-size: 1rem; 
         font-family: var(--font-sans-serif-OpenSans);
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 389px) {
     .menu__link--silent {
         font-size: 0.7rem; 
         padding: 0;
@@ -229,13 +229,14 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 389px) {
     .menu__shape--top  {
         height: 100px; 
     }
 }
-@media (max-width: 390px) {
+@media (max-width: 389px) {
     .menu__shape--bottom  {
         height: 100px; 
+        bottom: 0px
     }
 }

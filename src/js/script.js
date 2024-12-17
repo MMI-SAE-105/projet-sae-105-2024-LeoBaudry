@@ -16,3 +16,31 @@ if (toggle && nav) {
     page.classList.toggle("noscroll", isClosed);
   });
 }
+
+////////////////////////////// CAROUSEL  //////////////////////////////
+
+
+const carousel = document.querySelector(".carousel__container");
+const prevButton = document.querySelector(".carousel__button--prev");
+const nextButton = document.querySelector(".carousel__button--next");
+
+const premierItem = document.querySelector(".carousel__item");
+const scrollAmount = premierItem.clientWidth;
+
+// Largeur de défilement d’un item
+if (carousel) {
+  prevButton.addEventListener("click", () => {
+    carousel.scrollBy ({
+        left: -carousel.offsetWidth,
+        behavior: "smooth",
+    });
+  });
+
+  // Scroll au clic sur le bouton suivant
+  nextButton.addEventListener("click", () => {
+    carousel.scrollBy({
+      left: carousel.offsetWidth,
+      behavior: "smooth",
+    });
+  });
+}
