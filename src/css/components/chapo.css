@@ -1,0 +1,8 @@
+.chapo__title {
+  font-size: var(--tt-h3);
+  font-family: var(--font-sans-serif-Poppins)  ;
+  color: var(--green-dark-green);
+  font-weight: 450;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+}
