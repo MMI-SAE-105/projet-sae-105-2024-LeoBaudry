@@ -110,3 +110,10 @@ img {
     transition: background-color 0.4s;
 }
 
+.carousel__heading {
+    font-size: var(--tt-h3);
+    font-family: var(--font-sans-serif-Poppins);
+    color: var(--grey-black);
+    font-weight: 450;
+    padding-bottom: 2rem;
+}
