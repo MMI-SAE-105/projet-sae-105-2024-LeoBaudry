@@ -31,7 +31,7 @@
     justify-content: center; 
     align-items: center; 
     margin: 0; 
-    padding-top: 5px;
+    padding: 0.75rem 2rem;
 }
 
 .text__title {
@@ -39,4 +39,13 @@
     font-family: var(--font-serif-Lora);
     padding: 0 2rem;
     text-align: center;
+}
+
+.text__title2 {
+    font-size: var(--tt-h3);
+    font-family: var(--font-sans-serif-Poppins);
+    padding: 0 2rem;
+    text-align: center;
+    font-weight: 500;
+    
 }
