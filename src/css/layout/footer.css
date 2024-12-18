@@ -123,7 +123,7 @@
   .footer__social-icon {
     width: 2.5rem;
     height: 2.5rem;
-    margin-right: 0.2rem;
+    margin-right: 0.5rem;
     margin-left : -0.2rem;  
     
 }
@@ -137,4 +137,8 @@
     line-height: 1.6;
     font-family: var(--font-sans-serif-Montserrat);
     font-size: var(--tt-b2);
+}
+
+.footer__social-list {
+  padding-left: 0;
 }
