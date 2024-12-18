@@ -11,6 +11,7 @@
     color: var(--grey-white); 
     text-align: center; 
     padding: 1rem; 
+    position : relative;
 
 }
 
@@ -23,13 +24,15 @@
 }
 
 .hero__content {
-    position: relative;
-    top: 50%; 
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    top: 102%; 
+    width: 100%;
     text-align: left;
 }
 
 .hero__text {
-    text-align: left;
     font-size: var(--tt-btn);
     font-family: var(--font-sans-serif-Roboto);
     color: var(--grey-gray-1);
