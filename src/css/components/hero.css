@@ -24,7 +24,7 @@
 
 .hero__content {
     position: absolute;
-    bottom: 18rem; 
+    top: 63%; 
     left: 0;
     text-align: center;
 }
