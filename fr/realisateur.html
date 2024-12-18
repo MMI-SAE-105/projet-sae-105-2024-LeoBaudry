@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="../src/css/style.css">
     <script type="module" src="../src/js/script.js"></script>
+    <script type="module" src="../src/js/carousel.js"></script>
 </head>
 
 <body>
@@ -65,3 +66,65 @@
         <div class="menu__shape menu__shape--bottom" aria-hidden="true"></div>
     </nav>
 </header>
+
+<main>
+    <section class="hero intro">
+        <h1 class="hero__title"> George Miller : un visionnaire </h1>
+        <div class="hero__content">
+            <p class="hero__text"><em>Publié le 24/10 par Léo BAUDRY. Temps de lecture : 2-3 min</em></p>
+        </div>
+    </section>
+
+    <section class="intro">
+        <h1 class="intro__title">Le post-apocalyptique</h1>  
+    </section>
+
+    <hr class="separator">
+
+    <section class="text chapo">
+        <h2 class="chapo__title">Interrogation sur les limites de la civilisation et de la technologie.</h2>
+        <p class="text__text">Le réalisateur australien George Miller est surtout connu pour son travail sur la saga Mad Max, 
+        une série de films <strong> post-apocalyptiques </strong> qui s'alignent parfaitement avec le thème central de mon site.  </p>
+        <p class="text__text">En explorant la <strong>disparition</strong> de la <strong>technologie</strong> et le <strong>chaos</strong> 
+        qui en résulte, ses films dépeignent un monde où l'humanité tente de survivre dans un environnement hostile et <strong>dévasté</strong>.</p>
+        <div class="carousel text" aria-labelledby="carousel-heading">
+            <h3 id="carousel-heading" class="carousel__heading">
+                Carousel d'images de sabliers
+            </h3>
+            <div class="carousel__container" role="region" aria-live="polite">
+                <div class="carousel__item">
+                    <img src="../assets/img/madmax1.webp" alt="Poster de Mad Max 1" id="item1" aria-hidden="true" loading="lazy"/>   
+                    AAAA
+                    <a href="#">TEST</a>
+                </div>
+                <div class="carousel__item">
+                    <img src="../assets/img/madmax2.webp" alt="Poster de Mad Max 2" id="item2" aria-hidden="true" loading="lazy"/>
+                    AAAA
+                    <a href="#">TEST</a>
+                </div>
+                <div class="carousel__item">
+                    <img src="../assets/img/madmax3.webp" alt="Poster de Mad Max" id="item3" aria-hidden="true" loading="lazy"/>
+                    AAAA
+                    <a href="#">TEST</a> 
+                </div>
+            </div>
+            <div class="carousel__controls">
+                <button class="carousel__button carousel__button--prev" aria-label="Défiler vers la gauche">
+                    <img src="../assets/icons/fleche_carousel.svg" alt="fleche gauche" loading="lazy" aria-hidden="true"/>
+                </button>
+                <button class="carousel__button carousel__button--next" aria-label="Défiler vers la droite">
+                    <img src="../assets/icons/fleche_carousel.svg" alt="fleche droite" loading="lazy" aria-hidden="true"/>
+                </button>
+            </div>
+            <nav class="carousel__nav">
+              <ul class="carousel__nav-list">
+                  <li class="carousel__nav-item" ><a href="#item1" >Image 1</a></li>
+                  <li class="carousel__nav-item" ><a href="#item2" >Image 2</a></li>
+                  <li class="carousel__nav-item" ><a href="#item3" >Image 3</a></li>
+              </ul>
+          </nav>
+          <p class="text__description"> Exemples de sabliers.</p>
+        </div>
+        <p class="text__description">Bande-annonce du film</p>
+
+      </section>
