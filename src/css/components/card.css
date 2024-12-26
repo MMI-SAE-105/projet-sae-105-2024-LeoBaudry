@@ -10,6 +10,18 @@
     position: relative; /* Ajout pour le positionnement absolu du bouton */
 }
 
+.card__white {
+    padding-top: 1.25rem;
+    background-color: var(--grey-white);
+    border-radius: 10px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    max-width: 600px;
+    overflow: hidden;
+    text-align: left;
+    position: relative; /* Ajout pour le positionnement absolu du bouton */
+}
+
 .card__content {
     padding: 0 20px;
 }
@@ -23,6 +35,13 @@
 
 .card__text {
     font-size: var(--tt-b1);
+    font-family: var(--font-sans-serif-OpenSans);
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.card__text2 {
+    font-size: var(--tt-b2);
     font-family: var(--font-sans-serif-OpenSans);
     margin-bottom: 30px;
     line-height: 1.4;

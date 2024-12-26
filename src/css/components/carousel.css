@@ -1,119 +1,125 @@
 img {
-    max-width: 100%;
-    height: auto;
+max-width: 100%;
+height: auto;
 }
 
 .carousel {
-    position: relative;
-    margin: 0 30px;
+position: relative;
+margin: 0 30px;
 }
 
 .carousel__controls {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-    justify-content: center;
-    margin: 4rem 0;
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
-    width: 100%;
+display: flex;
+gap: 16px;
+align-items: center;
+justify-content: center;
+margin: 4rem 0;
+position: absolute;
+bottom: 30px;
+left: 50%;
+transform: translateX(-50%);
+z-index: 1;
+width: 100%;
 }
 
 .carousel__button {
-    width: 10vw;
-    height: 10vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 0.5px solid rgba(90, 0, 0, 0.1);
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 1);
-    color: var(--grey-blanc);
-    cursor: pointer;
-    z-index: 1;
+width: 10vw;
+height: 10vw;
+display: flex;
+align-items: center;
+justify-content: center;
+border: 0.5px solid rgba(90, 0, 0, 0.1);
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 1);
+color: var(--grey-blanc);
+cursor: pointer;
+z-index: 1;
 }
 
 .carousel__button--prev {
-    transform: rotate(180deg);
+transform: rotate(180deg);
 }
 
 .carousel__container {
-    display: flex;
-    gap: 8px;
-    overflow-x: scroll;
-    margin-left: -12px;
-    margin-right: -12px;
-    scroll-snap-type: x mandatory;
-    position: relative;
+display: flex;
+gap: 8px;
+overflow-x: scroll;
+margin-left: -12px;
+margin-right: -12px;
+scroll-snap-type: x mandatory;
+position: relative;
 }
 
 .carousel__item {
-    flex: 1 0 100%;
-    scroll-snap-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+flex: 1 0 100%;
+scroll-snap-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .carousel__item img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+display: block;
+max-width: 100%;
+height: auto;
 }
 
 .carousel__nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 16px 0;
-    display: flex;
-    justify-content: center;
-    gap: 16px;
+list-style: none;
+padding: 0;
+margin: 16px 0;
+display: flex;
+justify-content: center;
+gap: 16px;
 }
 
 .carousel__nav a {
-    text-decoration: none;
-    font-weight: bold;
+text-decoration: none;
+font-weight: bold;
 }
 
 .carousel__nav-item {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: var(--grey-white);
-    border: none;
-    padding: 0;
-    cursor: pointer;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+background-color: var(--grey-white);
+border: none;
+padding: 0;
+cursor: pointer;
 }
 
 .carousel__nav-item.active {
-    background-color: var(--grey-black);
-    transform: scale(1.2);
+background-color: var(--grey-black);
+transform: scale(1.2);
 }
 
 .carousel__nav-item a {
-    color: transparent;
-    font-size: 0;
-    text-decoration: none;
+color: transparent;
+font-size: 0;
+text-decoration: none;
 }
 
 .carousel__nav-item {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background-color: var(--grey-gray-2);
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    transition: background-color 0.4s;
+width: 12px;
+height: 12px;
+border-radius: 50%;
+background-color: var(--grey-gray-2);
+border: none;
+padding: 0;
+cursor: pointer;
+transition: background-color 0.4s;
 }
 
 .carousel__heading {
-    font-size: var(--tt-h3);
-    font-family: var(--font-sans-serif-Poppins);
-    color: var(--grey-black);
-    font-weight: 450;
-    padding-bottom: 2rem;
+font-size: var(--tt-h3);
+font-family: var(--font-sans-serif-Poppins);
+color: var(--grey-black);
+font-weight: 450;
+padding: 2rem 0;
+text-align: center;
+}
+
+.carousel__text {
+display: flex;
+
 }

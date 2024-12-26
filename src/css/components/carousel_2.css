@@ -1,0 +1,131 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel2 {
+    position: relative;
+    margin: 0 30px;
+}
+
+.carousel2__controls {
+    gap: 1rem;
+    position: absolute;
+    bottom: 16vh;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    pointer-events: none;
+}
+
+.carousel2__button {
+    width: 10vw; 
+    height: 10vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid rgba(90, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 1); 
+    color: var(--grey-blanc);
+    cursor: pointer;
+    z-index: 1;
+    pointer-events: auto; 
+}
+
+.carousel2__button--prev {
+    margin-left: 10px; 
+    transform: rotate(180deg);
+}
+
+.carousel2__button--next {
+    margin-right: 10px; 
+}
+
+.carousel2__container {
+    display: flex;
+    gap: 8px;
+    overflow-x: scroll;
+    margin-left: -12px;
+    margin-right: -12px;
+    scroll-snap-type: x mandatory;
+    position: relative;
+}
+
+.carousel2__item {
+    flex: 1 0 100%;
+    scroll-snap-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel2__item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel2__text {
+    margin-top: 1rem;
+}
+
+.carousel2__nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.carousel2__nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.carousel2__nav-item {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--grey-white);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.carousel2__nav-item.active {
+    background-color: var(--grey-black);
+    transform: scale(1.2);
+}
+
+.carousel2__nav-item a {
+    color: transparent;
+    font-size: 0;
+    text-decoration: none;
+}
+
+.carousel2__nav-item {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: var(--grey-gray-2);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.4s;
+}
+
+.carousel2__heading {
+    font-size: var(--tt-h3);
+    font-family: var(--font-sans-serif-Poppins);
+    color: var(--grey-black);
+    font-weight: 450;
+    text-align: center;
+    padding: 2rem 0;
+}
