@@ -142,20 +142,18 @@
     width: 200px; /* Ajuste cette valeur selon la largeur souhaitée */
     white-space: nowrap; /* Empêche le retour à la ligne */
     overflow: hidden; /* Cache le texte qui déborde */
-    text-overflow: ellipsis; /* Ajoute une ellipse (…) si le texte dépasse */
-    text-align: center; /* Garde le texte centré */
+    text-overflow: ellipsis; 
+    text-align: center; 
 }
 
-/* Ajuster la largeur des titres pour "Bol en terre cuite" */
 .frise__item--bol .frise__title {
-    width: 200px; /* Ajuste cette valeur selon la largeur souhaitée */
-    white-space: nowrap; /* Empêche le retour à la ligne */
-    overflow: hidden; /* Cache le texte qui déborde */
-    text-overflow: ellipsis; /* Ajoute une ellipse (…) si le texte dépasse */
-    text-align: center; /* Garde le texte centré */
+    width: 200px; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    text-align: center; 
 }
 
-/* Responsive adjustments */
 
 
 @media (max-width: 399px) {

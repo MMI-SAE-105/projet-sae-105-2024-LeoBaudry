@@ -1,0 +1,5 @@
+.integration__container {
+    display: flex;
+    justify-content: center;
+    border: none;
+}
