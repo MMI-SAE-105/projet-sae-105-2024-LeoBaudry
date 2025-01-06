@@ -1,0 +1,77 @@
+.form {
+    margin: 40px;
+
+    text-align: left; 
+    display: inline-block;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.form__button {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--font-sans-serif-Mulish);
+    color: var(--grey-white);
+    border: none;
+    border-radius: 45px;
+    font-weight: bold;
+    padding: 1rem 1.5rem;
+    background-color: var(--green-dark-green);
+    font-size: 16px;
+}
+
+.form__title {
+    font-size: var(--tt-h3);
+    font-family: var(--font-sans-serif-Poppins);
+    padding: 0 2rem;
+    text-align: center;
+    font-weight: 500;
+    padding-bottom: 1.5rem; 
+    color: var(--grey-black);
+
+}
+
+.form__texts {
+    padding-bottom: 1rem; 
+    text-align: left; 
+    font-size: var(--tt-b1);
+    line-height: 1.5;
+    font-family: "Open Sans";
+    color: var(--grey-black);
+}
+
+.form__list {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+.form__item {
+    margin-bottom: 10px; 
+}
+
+.form__label {
+    font-size: var(--tt-b2);
+    line-height: 1.5;
+    font-family: "Open Sans";
+    color: var(--grey-black);
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: thin;
+    text-align: left; 
+}
+
+.form__input,
+.form__textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--grey-black);
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left; 
+}
+
+.form__textarea {
+    height: 100px; 
+}
