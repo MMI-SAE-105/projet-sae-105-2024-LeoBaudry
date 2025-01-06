@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,54 +16,151 @@
 </head>
 
 <body>
-  <header class="header">
-    <a href="../fr/index.html" class="header__link"><img src="../assets/icons/Logo.svg" alt="Logo" class="header__logo"></a>
-    <div class="header__right">
-        <button class="header__translate" aria-label="traduire">
-            <a class="header__translate-btn" href="../en/index_en.html">
-                <img src="../assets/icons/bouton_trad.svg" alt="Traduire en Anglais">
-            </a>
-        </button>
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <span class="menu-btn__bar" aria-hidden="true"></span>
-        </button>
-    </div>
-    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-        <div class="menu__shape menu__shape--top" aria-hidden="true"></div>
-        <ul class="menu__list list-unstyled">
-            <li class="menu__item">
-                <a class="menu__link" href="../fr/presentation_objet.html">Présentation des objets</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="../fr/livre.html">"La Route" de Cormac McCarthy</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="../fr/film.html">Film "Le jour où la Terre s'arrêta"</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="../fr/realisateur.html">George Miller : un visionnaire</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="../fr/musique.html">"No Surprises" de Radiohead</a>
-            </li>
-        </ul>
-        <div class="menu__secondaire">
-            <ul class="menu__terms list-unstyled" aria-label="Legal information">
-                <li>
-                    <a class="menu__link menu__link--silent" href="../fr/contact.html">Contact</a>
+    <header class="header">
+        <a href="../fr/index.html" class="header__link"><img src="../assets/icons/Logo.svg" alt="Logo" class="header__logo"></a>
+        <div class="header__right">
+                <a class="header__translate-btn" href="../en/index_en.html">
+                    <img src="../assets/icons/bouton_trad.svg" alt="Traduire en Anglais">
+                </a>
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar" aria-hidden="true"></span>
+            </button>
+        </div>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <div class="menu__shape menu__shape--top" aria-hidden="true"></div>
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="../fr/presentation_objet.html">Présentation des objets</a>
                 </li>
-                <li>
-                    <a class="menu__link menu__link--silent" href="../fr/about.html">À Propos</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="../fr/livre.html">"La Route" de Cormac McCarthy</a>
                 </li>
-                <li>
-                    <a class="menu__link menu__link--silent" href="../fr/glossaire.html">Glossaire</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="../fr/film.html">Film "Le jour où la Terre s'arrêta"</a>
                 </li>
-                <li>
-                    <a class="menu__link menu__link--silent" href="../fr/projets.html">Autres projets</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="../fr/realisateur.html">George Miller : un visionnaire</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="../fr/musique.html">"No Surprises" de Radiohead</a>
                 </li>
             </ul>
+            <div class="menu__secondaire">
+                <ul class="menu__terms list-unstyled" aria-label="Legal information">
+                    <li>
+                        <a class="menu__link menu__link--silent" href="../fr/contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="menu__link menu__link--silent" href="../fr/about.html">À Propos</a>
+                    </li>
+                    <li>
+                        <a class="menu__link menu__link--silent" href="../fr/glossaire.html">Glossaire</a>
+                    </li>
+                    <li>
+                        <a class="menu__link menu__link--silent" href="../fr/projets.html">Autres projets</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="../fr/index.html" class="menu__logo"></a>
+            <div class="menu__shape menu__shape--bottom" aria-hidden="true"></div>
+        </nav>
+    </header>
+    
+<main>
+    <section class="hero intro">
+        <h1 class="hero__title"> À Propos </h1>
+    </section>
+
+    <section class="text">
+        <h3 class="text__title2"> Qui suis-je ?</h3>
+        <div class="card card__content">
+            <p class="card__text"> Je m'appelle Léo Baudry, je suis un étudiant de première année au <strong>BUT MMI</strong> à l'<strong>IUT
+            </strong> de <em>Montbéliard</em>. J'ai réalisé ce site web dans le cadre d'un projet individuel dans ma formation.</p>
         </div>
-        <a href="../fr/index.html" class="menu__logo"></a>
-        <div class="menu__shape menu__shape--bottom" aria-hidden="true"></div>
-    </nav>
-</header>
+    </section>
+    
+    <hr class="separator">
+
+    <section class="text">
+        <h3 class="text__title2"> Quel est l'objectif de mon site ?</h3>
+        <div class="card card__content">
+            <p class="card__text"> Mon site cherche à montrer à ses utilisateurs, et au travers d'articles et d'illustrations imagées, les 
+            conséquences d'un monde futur dépourvu de technologies.</p>
+            <p class="card__text"> Par la même occasion, le site relève à quel point la <strong>dépendance technologique</strong> de tous 
+            est bien trop <em>importante</em>, et apporte des idées pour s'en séparer (et en présente des bienfaits).</p>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <section class="text">
+        <h3 class="text__title2"> Pourquoi avoir choisi ce sujet ?</h3>
+        <div class="card card__content">
+            <p class="card__text"> C'est un sujet très intéressant et révélateur pour montrer à quel point notre <em>dépendance aux technologies</em>
+            est un <strong>enjeu central</strong> aujourd'hui</p>
+            <p class="card__text"> Il me permet, au travers de <em>différents articles</em>, d'explorer des idées de <strong>résilience</strong> 
+            face aux <strong>excès technologiques</strong> actuels.</p>
+            <p class="card__text"> Mon site offre l'occasion de <em>réfléchir</em> sur sa propre <strong>consommation de la technologie</strong>
+            , et aide à <em>prendre du recul</em> à ce sujet.
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__header">
+    <a href="../fr/index.html" class="footer__logo-link">
+      <img src="../assets/icons/Logo.svg" alt="Logo du festival" class="footer__logo" loading="lazy">
+    </a>
+    <h3 class="footer__title">SilentAge Website</h3>
+    </div>
+  
+    <div class="footer__content">
+    <div class="footer__section footer__menu">
+      <h4 class="footer__nav-title">Menu</h4>
+      <ul class="footer__nav-list">
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/contact.html">Contact</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/about.html">À Propos</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/glossaire.html">Glossaire</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/projets.html">Autres projets</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer__divider"></div>
+  
+    <div class="footer__section footer__info">
+      <h4 class="footer__info-title">Informations</h4>
+      <ul class="footer__info-list">
+      <li class="footer__info-item">Léo BAUDRY</li>
+      <li class="footer__info-item">MMI 1 | TP A2</li>
+      <li class="footer__info-item"><a class="footer__info-link" href="mailto:leo.baudry@edu.univ-fcomte.fr">M'écrire un mail</a></li>
+      </ul>
+    </div>
+    </div>
+  
+    <div class="footer__social-container">
+    <h4 class="footer__social-title">Me Suivre</h4>
+    <ul class="footer__social-list">
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/instagram.svg" alt="Instagram" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/youtube.svg" alt="Youtube" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/twitter.svg" alt="Twitter" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/facebook.svg" alt="Facebook" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/tiktok.svg" alt="Tiktok" class="footer__social-icon" aria-hidden="true" ></a></li>
+    </ul>
+    </div>
+  
+    <div class="footer__bottom">
+    <p class="footer__credits">
+      Projet réalisé en 2024 dans le cadre d'un exercice pédagogique au département 
+      <a class="footer__credits-link" href="https://blogdummi.fr/">MMI de Montbéliard</a>
+    </p>
+    <div class="footer__logo-mmi">
+      <img src="../assets/icons/logo_mmi_whitesvg.svg" alt="Logo MMI" class="footer__logo-mmi-img" loading="lazy">
+    </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
+

@@ -41,5 +41,5 @@
 .header__right {
   display: flex;
   align-items: center;
-  gap: var(--space1x); /* Ajustez l'espace entre les boutons si nécessaire */
+  gap: var(--space1x); 
 }
