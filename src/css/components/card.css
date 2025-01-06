@@ -1,3 +1,4 @@
+/* Styles existants pour vos autres cartes */
 .card {
     padding-top: 1.25rem;
     background-color: var(--grey-light-gray-1);
@@ -7,7 +8,7 @@
     max-width: 600px;
     overflow: hidden;
     text-align: left;
-    position: relative; 
+    position: relative; /* Ajout pour le positionnement absolu du bouton */
 }
 
 .card__white {
@@ -19,7 +20,7 @@
     max-width: 600px;
     overflow: hidden;
     text-align: left;
-    position: relative; 
+    position: relative; /* Ajout pour le positionnement absolu du bouton */
 }
 
 .card__content {
@@ -48,25 +49,26 @@
 }
 
 .card__image-container {
-    position: relative; 
+    position: relative; /* Ajout pour le positionnement absolu du bouton */
 }
 
-.card__link{
+.card__link {
     color: var(--grey-black);
 }
+
 .card__image {
     width: 100%;
     height: auto;
-    display: block; 
+    display: block; /* Assure que l'image prend toute la largeur disponible */
 }
 
 .card__button {
-    position: absolute; 
+    position: absolute;
     text-align: center;
-    bottom: 20px; 
+    bottom: 20px;
     right: -60px;
     left: 75%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
     padding: 10px 20px;
     font-size: var(--tt-btn);
     font-family: var(--font-sans-serif-Mulish);
@@ -79,12 +81,12 @@
 }
 
 .card__button2 {
-    position: absolute; 
+    position: absolute;
     text-align: center;
-    bottom: 20px; 
+    bottom: 20px;
     right: -60px;
     left: 75%;
-    transform: translateX(-50%); 
+    transform: translateX(-50%);
     padding: 10px 20px;
     font-size: var(--tt-btn);
     font-family: var(--font-sans-serif-Mulish);
@@ -94,4 +96,70 @@
     text-transform: uppercase;
     border-radius: 45px;
     background-color: var(--grey-white);
+}
+
+/* Nouveaux styles pour les cartes spécifiques */
+.new-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacement entre les cartes */
+    margin: 0 1.25rem;
+}
+
+.new-card__container {
+    flex: 1 1 45%; /* Chaque carte prend 45% de la largeur, avec un maximum de 600px */
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative; /* Ajout pour le positionnement absolu du bouton */
+    min-height: 350px; /* Ajout d'une hauteur minimale */
+}
+
+.new-card__content {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9); /* Fond semi-transparent pour le texte */
+    padding: 0.625rem 20px;
+}
+
+.new-card__title {
+    font-size: var(--tt-proj);
+    font-family: var(--font-sans-serif-Poppins);
+    font-weight: 500;
+    margin-bottom: 5px; /* Réduction de la marge inférieure */
+}
+
+.new-card__author {
+    font-size: var(--tt-b2);
+    font-family: var(--font-sans-serif-OpenSans);
+    margin-bottom: 10px; /* Ajout de la marge inférieure pour l'auteur */
+    color: var(--grey-dark); /* Couleur pour l'auteur */
+}
+
+.new-card__image {
+    width: 100%;
+    height: auto;
+    display: block; /* Assure que l'image prend toute la largeur disponible */
+}
+
+.new-card__button {
+    position: absolute;
+    text-align: center;
+    bottom: -2rem; /* Ajustement de la position du bouton */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    font-size: var(--tt-btn);
+    font-family: var(--font-sans-serif-Mulish);
+    font-weight: 700;
+    color: var(--grey-white);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 45px;
+    background-color: var(--green-dark-green);
 }

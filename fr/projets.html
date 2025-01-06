@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page d'accueil</title>
+    <title>SilentAge - Autres projets</title>
 
     <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="96x96"/>
     <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
@@ -16,54 +16,201 @@
 </head>
 
 <body>
-  <header class="header">
-    <a href="../fr/index.html" class="header__link"><img src="../assets/icons/Logo.svg" alt="Logo" class="header__logo"></a>
-    <div class="header__right">
-        <button class="header__translate" aria-label="traduire">
-            <a class="header__translate-btn" href="../en/index_en.html">
-                <img src="../assets/icons/bouton_trad.svg" alt="Traduire en Anglais">
-            </a>
-        </button>
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <span class="menu-btn__bar" aria-hidden="true"></span>
-        </button>
-    </div>
-    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
-        <div class="menu__shape menu__shape--top" aria-hidden="true"></div>
-        <ul class="menu__list list-unstyled">
-            <li class="menu__item">
-                <a class="menu__link" href="../fr/presentation_objet.html">Présentation des objets</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="../fr/livre.html">"La Route" de Cormac McCarthy</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="../fr/film.html">Film "Le jour où la Terre s'arrêta"</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="../fr/realisateur.html">George Miller : un visionnaire</a>
-            </li>
-            <li class="menu__item">
-                <a class="menu__link" href="../fr/musique.html">"No Surprises" de Radiohead</a>
-            </li>
-        </ul>
-        <div class="menu__secondaire">
-            <ul class="menu__terms list-unstyled" aria-label="Legal information">
-                <li>
-                    <a class="menu__link menu__link--silent" href="../fr/contact.html">Contact</a>
+    <header class="header">
+        <a href="../fr/index.html" class="header__link"><img src="../assets/icons/Logo.svg" alt="Logo" class="header__logo"></a>
+        <div class="header__right">
+                <a class="header__translate-btn" href="../en/index_en.html">
+                    <img src="../assets/icons/bouton_trad.svg" alt="Traduire en Anglais">
+                </a>
+            <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+                <span class="menu-btn__bar" aria-hidden="true"></span>
+            </button>
+        </div>
+        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+            <div class="menu__shape menu__shape--top" aria-hidden="true"></div>
+            <ul class="menu__list list-unstyled">
+                <li class="menu__item">
+                    <a class="menu__link" href="../fr/presentation_objet.html">Présentation des objets</a>
                 </li>
-                <li>
-                    <a class="menu__link menu__link--silent" href="../fr/about.html">À Propos</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="../fr/livre.html">"La Route" de Cormac McCarthy</a>
                 </li>
-                <li>
-                    <a class="menu__link menu__link--silent" href="../fr/glossaire.html">Glossaire</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="../fr/film.html">Film "Le jour où la Terre s'arrêta"</a>
                 </li>
-                <li>
-                    <a class="menu__link menu__link--silent" href="../fr/projets.html">Autres projets</a>
+                <li class="menu__item">
+                    <a class="menu__link" href="../fr/realisateur.html">George Miller : un visionnaire</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="../fr/musique.html">"No Surprises" de Radiohead</a>
                 </li>
             </ul>
+            <div class="menu__secondaire">
+                <ul class="menu__terms list-unstyled" aria-label="Legal information">
+                    <li>
+                        <a class="menu__link menu__link--silent" href="../fr/contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a class="menu__link menu__link--silent" href="../fr/about.html">À Propos</a>
+                    </li>
+                    <li>
+                        <a class="menu__link menu__link--silent" href="../fr/glossaire.html">Glossaire</a>
+                    </li>
+                    <li>
+                        <a class="menu__link menu__link--silent" href="../fr/projets.html">Autres projets</a>
+                    </li>
+                </ul>
+            </div>
+            <a href="../fr/index.html" class="menu__logo"></a>
+            <div class="menu__shape menu__shape--bottom" aria-hidden="true"></div>
+        </nav>
+    </header>
+
+    <main>
+    
+        <section class="hero intro">
+            <h1 class="hero__title"> Autres projets </h1>
+        </section>
+
+        <section class="intro text">
+            <h2 class="text__title">Découvrez d'autres projets</h2>
+        </section>
+    
+        <section class="card">
+            <div class="card__content">
+                <h2 class="card__title"> Retrouvez içi des projets similaires ! </h2>
+                <p class="card__text"><em>Ces projets ont été réalisés par des camarades, sur un thème similaire.</em></p>
+            </div>
+            <div class="card__image-container">
+              <img class="card__image" src="../assets/img/mountains2.webp" alt="">
+              <a class="card__button" href="#ancre_projets">Découvrir</a>
+            </div>
+        </section>
+
+        <hr class="separator">
+
+
+        <div class="new-card-wrapper">
+            <div class="new-card__container">
+                <img src="../assets/img/radiumfall.webp" alt="Déchets radioactifs" class="new-card__image">
+                <div class="new-card__content">
+                    <div class="new-card__title">RadiumFall</div>
+                    <div class="new-card__author">Banjamin BOBEL</div>
+                    <a href="#" class="new-card__button">DÉCOUVRIR</a>
+                </div>
+            </div>
+            <div class="new-card__container" id="ancre_projets">
+                <img src="../assets/img/ecodenim.webp" alt="Matière de Jean" class="new-card__image">
+                <div class="new-card__content">
+                    <div class="new-card__title">EcoDenim</div>
+                    <div class="new-card__author">Maëlie ADDARIO</div>
+                    <a href="#" class="new-card__button">DÉCOUVRIR</a>
+                </div>
+            </div>
+            <div class="new-card__container">
+                <img src="../assets/img/clavex.webp" alt="Clavier de Piano" class="new-card__image">
+                <div class="new-card__content">
+                    <div class="new-card__title">Clavex</div>
+                    <div class="new-card__author">Loréna CHEVALLOT</div>
+                    <a href="#" class="new-card__button">DÉCOUVRIR</a>
+                </div>
+            </div>
+            <div class="new-card__container">
+                <img src="../assets/img/gametime.webp" alt="Mannette de console" class="new-card__image">
+                <div class="new-card__content">
+                    <div class="new-card__title">GameTime</div>
+                    <div class="new-card__author">Kilian <br>BREUIL</div>
+                    <a href="#" class="new-card__button">DÉCOUVRIR</a>
+                </div>
+            </div>            <div class="new-card__container">
+                <img src="../assets/img/droneXplorer.webp" alt="Drone volant" class="new-card__image">
+                <div class="new-card__content">
+                    <div class="new-card__title">DroneXplorer</div>
+                    <div class="new-card__author">Adrien CHOULET</div>
+                    <a href="#" class="new-card__button">DÉCOUVRIR</a>
+                </div>
+            </div>
+            <div class="new-card__container">
+                <img src="../assets/img/aftHertz.webp" alt=" Vieille radio" class="new-card__image">
+                <div class="new-card__content">
+                    <div class="new-card__title">Aft'Hertz</div>
+                    <div class="new-card__author">Paul DARLE-FELBACQ</div>
+                    <a href="#" class="new-card__button">DÉCOUVRIR</a>
+                </div>
+            </div>            <div class="new-card__container">
+                <img src="../assets/img/ArchaDrive.webp" alt="Voiture futuriste" class="new-card__image">
+                <div class="new-card__content">
+                    <div class="new-card__title">ArchaDrive</div>
+                    <div class="new-card__author">Mathis DESRACHES</div>
+                    <a href="#" class="new-card__button">DÉCOUVRIR</a>
+                </div>
+            </div>
+            <div class="new-card__container">
+                <img src="../assets/img/Train_maglev.webp" alt="Train à lévitation magnétique" class="new-card__image">
+                <div class="new-card__content">
+                    <div class="new-card__title">TrainMagLev</div>
+                    <div class="new-card__author">Margaux COUTURIER</div>
+                    <a href="#" class="new-card__button">DÉCOUVRIR</a>
+                </div>
+            </div>
         </div>
-        <a href="../fr/index.html" class="menu__logo"></a>
-        <div class="menu__shape menu__shape--bottom" aria-hidden="true"></div>
-    </nav>
-</header>
+        
+        <hr class="separator">
+
+        <section class="text">
+            <p class="text__text">Merci de votre attention !</p>
+        </section>
+    </main>
+
+        <footer class="footer">
+    <div class="footer__header">
+    <a href="../fr/index.html" class="footer__logo-link">
+      <img src="../assets/icons/Logo.svg" alt="Logo du festival" class="footer__logo" loading="lazy">
+    </a>
+    <h3 class="footer__title">SilentAge Website</h3>
+    </div>
+  
+    <div class="footer__content">
+    <div class="footer__section footer__menu">
+      <h4 class="footer__nav-title">Menu</h4>
+      <ul class="footer__nav-list">
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/contact.html">Contact</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/about.html">À Propos</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/glossaire.html">Glossaire</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../fr/projets.html">Autres projets</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer__divider"></div>
+  
+    <div class="footer__section footer__info">
+      <h4 class="footer__info-title">Informations</h4>
+      <ul class="footer__info-list">
+      <li class="footer__info-item">Léo BAUDRY</li>
+      <li class="footer__info-item">MMI 1 | TP A2</li>
+      <li class="footer__info-item"><a class="footer__info-link" href="mailto:leo.baudry@edu.univ-fcomte.fr">M'écrire un mail</a></li>
+      </ul>
+    </div>
+    </div>
+  
+    <div class="footer__social-container">
+    <h4 class="footer__social-title">Me Suivre</h4>
+    <ul class="footer__social-list">
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/instagram.svg" alt="Instagram" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/youtube.svg" alt="Youtube" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/twitter.svg" alt="Twitter" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/facebook.svg" alt="Facebook" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/tiktok.svg" alt="Tiktok" class="footer__social-icon" aria-hidden="true" ></a></li>
+    </ul>
+    </div>
+  
+    <div class="footer__bottom">
+    <p class="footer__credits">
+      Projet réalisé en 2024 dans le cadre d'un exercice pédagogique au département 
+      <a class="footer__credits-link" href="https://blogdummi.fr/">MMI de Montbéliard</a>
+    </p>
+    <div class="footer__logo-mmi">
+      <img src="../assets/icons/logo_mmi_whitesvg.svg" alt="Logo MMI" class="footer__logo-mmi-img" loading="lazy">
+    </div>
+    </div>
+  </footer>
