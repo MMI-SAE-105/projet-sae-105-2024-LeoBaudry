@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilentAge - Director page</title>
+
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png"/>
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script type="module" src="../src/js/script.js"></script>
+    <script type="module" src="../src/js/script2.js"></script>
+    <script type="module" src="../src/js/carousel2.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="../en/index.html" class="header__link"><img src="../assets/icons/Logo.svg" alt="Logo" class="header__logo"></a>
+    <div class="header__right">
+            <a class="header__translate-btn" href="../fr/realisateur.html">
+                <img src="../assets/icons/bouton_trad.svg" alt="Translate to french">
+            </a>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+    </div>
+    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <div class="menu__shape menu__shape--top" aria-hidden="true"></div>
+        <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+                <a class="menu__link" href="../en/presentation_objet_en.html">Item presentation </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/livre_en.html">"The Road" by Cormac McCarthy</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/film_en.html">"The Day the Earth Stood Still"</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/realisateur_en.html">George Miller : a visionary</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/musique_en.html">"No Surprises" by Radiohead</a>
+            </li>
+        </ul>
+        <div class="menu__secondaire">
+            <ul class="menu__terms list-unstyled" aria-label="Legal information">
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/contact_en.html">Contact</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/about_en.html">About</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/glossaire_en.html">Glossary</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/projets_en.html">Other projects</a>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="menu__logo"></a>
+        <div class="menu__shape menu__shape--bottom" aria-hidden="true"></div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero intro">
+        <h1 class="hero__title"> Film director George Miller </h1>
+        <div class="hero__content">
+            <p class="hero__text"><em>Published on 24/10 by Léo BAUDRY. Estimated reading time : 2-3 min</em></p>
+        </div>
+    </section>
+
+    <section class="intro">
+        <h1 class="intro__title">The post-apocalyptic</h1>
+    </section>
+
+    <hr class="separator">
+
+    <section class="text chapo">
+        <h2 class="chapo__title">Questioning the limits of civilization and technology.</h2>
+        <p class="text__text">Australian director George Miller is best known for his work on the Mad Max saga, a series of 
+        <strong>post-apocalyptic</strong> films that align perfectly with the central theme of my site. </p>
+        <p class="text__text">Exploring the <strong>demise</strong> of <strong>technology</strong> and the resulting <strong>chaos</strong>,
+        his films depict a world where humanity tries to survive in a hostile and <strong>devastated</strong> environment.</p>
+        <div class="carousel2 text" aria-labelledby="carousel-heading">
+            <h3 id="carousel-heading" class="carousel2__heading">
+                Carousel of the Mad Max movies poster images
+            </h3>
+            <div class="carousel2__container" role="region" aria-live="polite">
+                <div class="carousel2__item">
+                    <img src="../assets/img/madmax1.webp" alt="Poster de Mad Max 1" id="item1" aria-hidden="true" loading="lazy"/>
+                    <p class="text__description">Mad Max movie poster (1979)</p>
+                    <a class="button__button2" href="https://www.allocine.fr/film/fichefilm_gen_cfilm=2041.html">Go to the film's page</a>
+                </div>
+                <div class="carousel2__item">
+                    <img src="../assets/img/madmax2.webp" alt="Poster de Mad Max 2" id="item2" aria-hidden="true" loading="lazy"/>
+                    <p class="text__description">Mad Max 2 : The Road Warrior poster</p>
+                    <a class="button__button2" href="https://www.allocine.fr/film/fichefilm_gen_cfilm=1971.html">Go to the film's page</a>
+                </div>
+                <div class="carousel2__item">
+                    <img src="../assets/img/madmax3.webp" alt="Poster de Mad Max" id="item3" aria-hidden="true" loading="lazy"/>
+                    <p class="text__description">Mad Max : Fury Road movie poster </p>
+                    <a class="button__button2" href="https://www.allocine.fr/film/fichefilm_gen_cfilm=125054.html">Go to the film's page </a>
+                </div>
+            </div>
+            <div class="carousel2__controls">
+                <button class="carousel2__button carousel2__button--prev" aria-label="Scroll Left">
+                    <img src="../assets/icons/fleche_carousel.svg" alt="left arrow" loading="lazy" aria-hidden="true"/>
+                </button>
+                <button class="carousel2__button carousel2__button--next" aria-label="Scroll right">
+                    <img src="../assets/icons/fleche_carousel.svg" alt="right arrow" loading="lazy" aria-hidden="true"/>
+                </button>
+            </div>
+            <nav class="carousel__nav">
+                <ul class="carousel__nav-list">
+                    <li class="carousel2__nav-item"><a href="#item1">Image 1</a></li>
+                    <li class="carousel2__nav-item"><a href="#item2">Image 2</a></li>
+                    <li class="carousel2__nav-item"><a href="#item3">Image 3</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="button">
+            <a class="button__button" href="#ancre_films">Learn more about these films</a>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+
+    <section class="text">
+        <h3 class="text__title2">Creator of a Post-Apocalyptic World</h3>
+        <p class="text__text"><strong>George Miller</strong> made cinema history with the first Mad Max in 1979, followed by several sequels, 
+        including the acclaimed <em>Mad Max : Fury Road</em> in <em>2015</em>.</p>
+        <p class="text__text">The latter was acclaimed for its unique vision of a <strong>future</strong> where natural resources are <strong>
+        scarce</strong>, and survivors fight for <strong>water</strong>, <strong>fuel</strong> and <strong>dominance</strong>.</p>
+        <p class="text__text">The world of Mad Max reflects a world <strong>deprived</strong> of <strong>modern technology</strong>, where 
+        infrastructure has collapsed and <strong>survival</strong> is at the centre of everything..</p>
+    </section>
+
+    <section class="text">
+        <h3 class="text__title2"> Technology, more of a Problem than a Solution</h3>
+        <div class="card card__content">
+            <p class="card__text">In Miller's films, <strong>technology</strong>, although <strong>present</strong> in the form of customised 
+            vehicles and cobbled-together weapons, has become more of a danger than a solution for the characters.</p>
+            <p class="card__text">Humanity finds itself in a situation where it has to <strong>deal with the ruins of its own technological 
+            progress</strong>, a theme similar to that of my website.</p>
+            <p class="card__text">What would happen if we lost all access to modern technology? <em>George Miller</em>'s films offer us a 
+            <a class="card__link" href="glossaire_en.html"><strong>dystopian</strong></a> version of this scenario, where conflict and 
+            survival replace <strong>civilised</strong> life.</p>
+        </div>
+        <img class="text__img" src="../assets/img/photo_realisateur.webp" alt="George Miller's picture" loading="lazy" aria-hidden="true"/>
+        <p class="text__description">A photography of the director.</p>
+    </section>
+
+    <hr class="separator">
+
+    <section class="text">
+        <h3 class="text__title2">A reflection on society</h3>
+        <p class="text__text"><em>Miller</em>'s work is not just an exploration of <strong>technological collapse</strong> ; it is also 
+        a <strong>social critique</strong>.</p>
+        <p class="text__text">The <em>Mad Max</em> films show how <strong>fragile</strong> humanity can be in the face of <strong>global 
+        catastrophe</strong>, and how destructively it can rebuild itself.</p>
+        <p class="text__text">This theme resonates with my site, which questions the future of civilization in the absence of technology.</p>
+        <p class="text__text">Mad Max may be an <strong>extreme</strong> vision, but it nevertheless encourages us to think about the 
+        <strong>consequences</strong> of our <strong>dependence</strong> on modern tools.</p>
+
+    </section>
+
+    <section class="text">
+        <h3 class="text__title2">Director's biography</h3>
+        <img class="text__img" src="../assets/img/georgemillerbio.webp" alt="Director's picture" loading="lazy" aria-hidden="true"/>
+        <p class="text__description"> George Miller's picture.</p>
+        <div class="button">
+            <a class="button__button" href="https://www.festival-cannes.com/p/george-miller/">Discover George Miller's biography.</a>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <section class="text">
+        <h2 class="text__title" id="ancre_films">Film presentations</h2>
+
+    </section>
+    
+    <section class="card__white">
+        <div class="card__content">
+            <h4 class="card__title">Mad Max (1979)</h4>
+                <p class="card__text2"><em>George Miller</em>'s first film, <em>Mad Max</em> (1979), introduces a <strong>post-apocalyptic
+                </strong> world where violence and anarchy reign. <em>Max</em>, a former policeman, tries to survive in a war-torn desert. 
+                This <strong>cult</strong> film launched one of the most influential sagas of dystopian action films.</p>
+        </div>
+        <div class="card__image-container">
+            <img src="../assets/img/madmax1.webp" alt="Mad Max 1 movie poster" class="card__image" loading="lazy" aria-hidden="true">
+        </div>
+      </section>
+
+      <section class="card__white">
+        <div class="card__content">
+            <h4 class="card__title">Mad Max 2 : The Road Warrior (1981)</h4>
+                <p class="card__text2">The film continues <em>Max</em>'s adventure in an even more brutal world. He must protect a community 
+                from raiders who covet their resources. The film has been praised for its spectacular action scenes and its exploration 
+                of <strong>survival</strong> in a <strong>technologically collapsed</strong> future.</p>
+        </div>
+        <div class="card__image-container">
+            <img src="../assets/img/madmax2.webp" alt="Mad Max 2 movie poster" class="card__image" loading="lazy" aria-hidden="true">
+        </div>
+      </section>
+
+      <section class="card__white">
+        <div class="card__content">
+            <h4 class="card__title">Mad Max : Fury Road (2015)</h4>
+                <p class="card__text2"><em>Mad Max: Fury Road</em> (2015) reinvents the saga with a <strong>modern twist</strong>. In this 
+                acclaimed opus, <em>Max</em> and <em>Furiosa</em> fight for freedom in a universe where water and gasoline have become scarce 
+                commodities, reflecting themes of technological and ecological collapse.</p>
+        </div>
+        <div class="card__image-container">
+            <img src="../assets/img/madmax3.webp" alt="Mad Max : Fury Road movie poster" class="card__image" loading="lazy" aria-hidden="true">
+        </div>
+      </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__header">
+    <a href="../en/index.html" class="footer__logo-link">
+      <img src="../assets/icons/Logo.svg" alt="Website's logo" class="footer__logo" loading="lazy">
+    </a>
+    <h3 class="footer__title">SilentAge Website</h3>
+    </div>
+  
+    <div class="footer__content">
+    <div class="footer__section footer__menu">
+      <h4 class="footer__nav-title">Menu</h4>
+      <ul class="footer__nav-list">
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/contact_en.html">Contact</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/about_en.html">About</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/glossaire_en.html">Glossary</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/projets_en.html">Other projects</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer__divider"></div>
+  
+    <div class="footer__section footer__info">
+      <h4 class="footer__info-title">Informations</h4>
+      <ul class="footer__info-list">
+      <li class="footer__info-item">Léo BAUDRY</li>
+      <li class="footer__info-item">MMI 1 | TP A2</li>
+      <li class="footer__info-item"><a class="footer__info-link" href="mailto:leo.baudry@edu.univ-fcomte.fr">Send me an Email</a></li>
+      </ul>
+    </div>
+    </div>
+  
+    <div class="footer__social-container">
+    <h4 class="footer__social-title">Follow me</h4>
+    <ul class="footer__social-list">
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/instagram.svg" alt="Instagram" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/youtube.svg" alt="Youtube" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/twitter.svg" alt="Twitter" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/facebook.svg" alt="Facebook" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/tiktok.svg" alt="Tiktok" class="footer__social-icon" aria-hidden="true" ></a></li>
+    </ul>
+    </div>
+  
+    <div class="footer__bottom">
+    <p class="footer__credits">
+      Project carried out in 2024 as part of an educational exercise in the 
+      <a class="footer__credits-link" href="https://blogdummi.fr/">MMI department of Montbéliard</a>
+    </p>
+    <div class="footer__logo-mmi">
+      <img src="../assets/icons/logo_mmi_whitesvg.svg" alt="Logo MMI" class="footer__logo-mmi-img" loading="lazy">
+    </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
