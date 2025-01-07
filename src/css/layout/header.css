@@ -32,10 +32,14 @@
 }
 
 .header__translate-btn {
-  display: inline;
-  align-items: right;
-  gap: var(--space1x);
+  display: flex; /* Utilisation de Flexbox */
+  align-items: center; /* Alignement vertical */
+  justify-content: center; /* Alignement horizontal (optionnel) */
+  gap: var(--space1x); /* Espace entre les éléments internes */
   padding-right: 20px;
+
+  height: 50px;
+  width: 50px;
 }
 
 .header__right {
