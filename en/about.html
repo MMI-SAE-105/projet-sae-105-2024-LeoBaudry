@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilentAge - Contact page</title>
+
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png"/>
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script type="module" src="../src/js/script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="../en/index.html" class="header__link"><img src="../assets/icons/Logo.svg" alt="Logo" class="header__logo"></a>
+    <div class="header__right">
+            <a class="header__translate-btn" href="../fr/about.html">
+                <img src="../assets/icons/bouton_trad.svg" alt="Translate to french">
+            </a>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+    </div>
+    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <div class="menu__shape menu__shape--top" aria-hidden="true"></div>
+        <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+                <a class="menu__link" href="../en/presentation_objet.html">Item presentation </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/livre.html">"The Road" by Cormac McCarthy</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/film.html">"The Day the Earth Stood Still"</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/realisateur.html">George Miller : a visionary</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/musique.html">"No Surprises" by Radiohead</a>
+            </li>
+        </ul>
+        <div class="menu__secondaire">
+            <ul class="menu__terms list-unstyled" aria-label="Legal information">
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/contact.html">Contact</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/about.html">About</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/glossaire.html">Glossary</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/projets.html">Other projects</a>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="menu__logo"></a>
+        <div class="menu__shape menu__shape--bottom" aria-hidden="true"></div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero intro">
+        <h1 class="hero__title">About</h1>
+    </section>
+
+    <section class="text">
+        <h3 class="text__title2"> Who am I?</h3>
+        <div class="card card__content">
+            <p class="card__text"> My name is Léo Baudry and I'm a first-year student on the <strong>MMI</strong> course at the <strong>IUT
+            </strong> in <a href="https://maps.app.goo.gl/wodezC3D4R5B6bm48"><strong>Montbéliard</strong> <img src="../assets/icons/ping_map.svg" alt="-" aria-hidden="true"></a>. 
+            I created this website as part of an individual project for my course.</p>
+        </div>
+
+        <div class="card card__content">
+            <div class="card__map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.7148973368207!2d6.801779926919957!3d47.49546717117989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4792172655793f9f%3A0x1b3b0f76560084ad!2sD%C3%A9partement%20MMI%20de%20Montb%C3%A9liard!5e0!3m2!1sfr!2sfr!4v1736237645156!5m2!1sfr!2sfr" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+    
+    <hr class="separator">
+
+    <section class="text">
+        <h3 class="text__title2"> What is the goal of my website?</h3>
+        <div class="card card__content">
+            <p class="card__text"> My website aims to show its users, through articles and illustrations, the consequences of a future world 
+            devoid of technology.</p>
+            <p class="card__text"> At the same time, the site highlights the extent to which we are all far too <strong>dependent on technology</strong>, 
+            and provides ideas on how to break away from it (and presents the benefits).</p>
+        </div>
+    </section>
+
+    <hr class="separator">
+
+    <section class="text">
+        <h3 class="text__title2">Why choose this subject?</h3>
+        <div class="card card__content">
+            <p class="card__text"> It's a very interesting and revealing subject to show the extent to which our dependence on technology 
+            is a <strong>central issue</strong> today.</p>
+            <p class="card__text"> Through various articles, it allows me to explore ideas of <strong>resilience</strong> in the face of 
+            current <strong>technological excesses</strong>.</p>
+            <p class="card__text"> My site offers an opportunity to reflect on our own <strong>consumption of technology</strong>, and helps 
+            us to take a step back from the subject.
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__header">
+    <a href="../en/index.html" class="footer__logo-link">
+      <img src="../assets/icons/Logo.svg" alt="Website's logo" class="footer__logo" loading="lazy">
+    </a>
+    <h3 class="footer__title">SilentAge Website</h3>
+    </div>
+  
+    <div class="footer__content">
+    <div class="footer__section footer__menu">
+      <h4 class="footer__nav-title">Menu</h4>
+      <ul class="footer__nav-list">
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/contact.html">Contact</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/about.html">About</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/glossaire.html">Glossary</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/projets.html">Other projects</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer__divider"></div>
+  
+    <div class="footer__section footer__info">
+      <h4 class="footer__info-title">Informations</h4>
+      <ul class="footer__info-list">
+      <li class="footer__info-item">Léo BAUDRY</li>
+      <li class="footer__info-item">MMI 1 | TP A2</li>
+      <li class="footer__info-item"><a class="footer__info-link" href="mailto:leo.baudry@edu.univ-fcomte.fr">Send me an Email</a></li>
+      </ul>
+    </div>
+    </div>
+  
+    <div class="footer__social-container">
+    <h4 class="footer__social-title">Follow me</h4>
+    <ul class="footer__social-list">
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/instagram.svg" alt="Instagram" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/youtube.svg" alt="Youtube" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/twitter.svg" alt="Twitter" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/facebook.svg" alt="Facebook" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/tiktok.svg" alt="Tiktok" class="footer__social-icon" aria-hidden="true" ></a></li>
+    </ul>
+    </div>
+  
+    <div class="footer__bottom">
+    <p class="footer__credits">
+      Project carried out in 2024 as part of an educational exercise in the 
+      <a class="footer__credits-link" href="https://blogdummi.fr/">MMI department of Montbéliard</a>
+    </p>
+    <div class="footer__logo-mmi">
+      <img src="../assets/icons/logo_mmi_whitesvg.svg" alt="Logo MMI" class="footer__logo-mmi-img" loading="lazy">
+    </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
