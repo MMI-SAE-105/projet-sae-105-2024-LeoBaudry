@@ -23,6 +23,11 @@ textarea {
   cursor: pointer;
 }
 
+.break {
+  word-break: break-word;
+  hyphens: auto;
+}
+
 .list-unstyled {
     list-style: none;
     margin: 0;
