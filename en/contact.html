@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SilentAge - Contact page</title>
+
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="96x96"/>
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png"/>
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
+
+    <link rel="stylesheet" href="../src/css/style.css">
+    <script type="module" src="../src/js/script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <a href="../en/index.html" class="header__link"><img src="../assets/icons/Logo.svg" alt="Logo" class="header__logo"></a>
+    <div class="header__right">
+            <a class="header__translate-btn" href="../fr/contact.html">
+                <img src="../assets/icons/bouton_trad.svg" alt="Translate to french">
+            </a>
+        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+            <span class="menu-btn__bar" aria-hidden="true"></span>
+        </button>
+    </div>
+    <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <div class="menu__shape menu__shape--top" aria-hidden="true"></div>
+        <ul class="menu__list list-unstyled">
+            <li class="menu__item">
+                <a class="menu__link" href="../en/presentation_objet.html">Item presentation </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/livre.html">"The Road" by Cormac McCarthy</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/film.html">"The Day the Earth Stood Still"</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/realisateur.html">George Miller : a visionary</a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="../en/musique.html">"No Surprises" by Radiohead</a>
+            </li>
+        </ul>
+        <div class="menu__secondaire">
+            <ul class="menu__terms list-unstyled" aria-label="Legal information">
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/contact_.html">Contact</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/about_.html">About</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/glossaire_.html">Glossary</a>
+                </li>
+                <li>
+                    <a class="menu__link menu__link--silent" href="../en/projets_.html">Other projects</a>
+                </li>
+            </ul>
+        </div>
+        <a href="#" class="menu__logo"></a>
+        <div class="menu__shape menu__shape--bottom" aria-hidden="true"></div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero intro">
+        <h1 class="hero__title"> Contact-us ! </h1>
+    </section>
+
+    <section class="form">
+        <h2 class="form__title" id="form">Contact form</h2>
+        <p class="form__texts">If you have any <strong>questions</strong>, <strong>suggestions</strong> or <strong>requests for information
+        </strong>, please fill in the form below. <em>We'll get back to you as soon as possible</em>.</p>
+
+        
+
+        <form action="#form" method="get" class="form__form">
+          <ul class="form__list">
+            <li class="form__item">
+                <label for="firstname" class="form__label">Enter your first name&nbsp;:</label>
+                <input type="text" id="firstname" name="user_firstname" class="form__input" />
+              </li>
+            <li class="form__item">
+              <label for="name" class="form__label">Enter your last name&nbsp;:</label>
+              <input type="text" id="name" name="user_name" class="form__input" />
+            </li>
+            <li class="form__item">
+              <label for="mail" class="form__label">Enter your E-mail address&nbsp;:</label>
+              <input type="email" id="mail" name="user_mail" class="form__input" />
+            </li>
+            <li class="form__item">
+              <label for="msg" class="form__label">Enter your message&nbsp;:</label>
+              <textarea id="msg" name="user_message" class="form__textarea"></textarea>
+            </li>
+          </ul>
+          <button type="submit" class="form__button">Send</button>
+        </form>
+      </section>
+</main>
+
+<footer class="footer">
+    <div class="footer__header">
+    <a href="../en/index.html" class="footer__logo-link">
+      <img src="../assets/icons/Logo.svg" alt="Website's logo" class="footer__logo" loading="lazy">
+    </a>
+    <h3 class="footer__title">SilentAge Website</h3>
+    </div>
+  
+    <div class="footer__content">
+    <div class="footer__section footer__menu">
+      <h4 class="footer__nav-title">Menu</h4>
+      <ul class="footer__nav-list">
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/contact_.html">Contact</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/about_.html">About</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/glossaire_.html">Glossary</a></li>
+      <li class="footer__nav-item"><a class="footer__nav-link" href="../en/projets_.html">Other projects</a></li>
+      </ul>
+    </div>
+  
+    <div class="footer__divider"></div>
+  
+    <div class="footer__section footer__info">
+      <h4 class="footer__info-title">Informations</h4>
+      <ul class="footer__info-list">
+      <li class="footer__info-item">Léo BAUDRY</li>
+      <li class="footer__info-item">MMI 1 | TP A2</li>
+      <li class="footer__info-item"><a class="footer__info-link" href="mailto:leo.baudry@edu.univ-fcomte.fr">Send me an Email</a></li>
+      </ul>
+    </div>
+    </div>
+  
+    <div class="footer__social-container">
+    <h4 class="footer__social-title">Follow me</h4>
+    <ul class="footer__social-list">
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/instagram.svg" alt="Instagram" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/youtube.svg" alt="Youtube" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/twitter.svg" alt="Twitter" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/facebook.svg" alt="Facebook" class="footer__social-icon" aria-hidden="true"></a></li>
+      <li class="footer__social-item"><a class="footer__social-link" href="#"><img src="../assets/icons/tiktok.svg" alt="Tiktok" class="footer__social-icon" aria-hidden="true" ></a></li>
+    </ul>
+    </div>
+  
+    <div class="footer__bottom">
+    <p class="footer__credits">
+      Project carried out in 2024 as part of an educational exercise in the 
+      <a class="footer__credits-link" href="https://blogdummi.fr/">MMI department of Montbéliard</a>
+    </p>
+    <div class="footer__logo-mmi">
+      <img src="../assets/icons/logo_mmi_whitesvg.svg" alt="Logo MMI" class="footer__logo-mmi-img" loading="lazy">
+    </div>
+    </div>
+  </footer>
+
+
+</body>
+</html>
