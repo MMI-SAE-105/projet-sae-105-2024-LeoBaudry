@@ -82,3 +82,13 @@
     display: block; 
     margin: 0 auto; 
 }
+
+.text__thanks {
+    font-size: var(--tt-b2);
+    line-height: 1.5;
+    font-family: "Open Sans";
+    color: var(--grey-black);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
