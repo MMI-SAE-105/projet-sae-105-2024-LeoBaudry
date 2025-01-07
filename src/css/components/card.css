@@ -122,7 +122,7 @@
     left: 0;
     right: 0;
     background: rgba(255, 255, 255, 0.9); 
-    padding: 0.625rem 20px;
+    padding: 0.625rem;
 }
 
 .new-card__title {
