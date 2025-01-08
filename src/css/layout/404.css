@@ -1,4 +1,14 @@
 .body__404 {
     background-color: var(--green-forest-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
+.img__404 {
+    width: 100%;
+    height: auto;
+    display: block;
+}
