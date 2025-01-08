@@ -4,9 +4,9 @@
 
 .intro__title {
     padding: 1.5rem 1rem;
-    text-align: left;
-    font-size: var(--tt-h1);
-    font-family: var(--font-serif-RobotoSlab);
+    text-align: center;
+    font-size: var(--tt-h2);
+    font-family: var(--font-serif-Lora);
 
 
 }
